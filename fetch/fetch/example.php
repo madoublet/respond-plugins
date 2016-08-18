@@ -1,0 +1,1 @@
+<?php print "<h3>Fetch works properly!</h3>"; ?>
