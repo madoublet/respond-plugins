@@ -1,4 +1,4 @@
-var fetch = [
+var plugins = [
   {
         action: "respond.fetch",
         selector: "[respond-plugin][type=fetch]",
