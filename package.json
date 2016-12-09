@@ -1,0 +1,19 @@
+{
+  "name": "respond-plugins",
+  "version": "1.0.0",
+  "description": "Plugins for Respond 6.  https://respondcms.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madoublet/respond-plugins.git"
+  },
+  "author": "Matthew Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madoublet/respond-plugins/issues"
+  },
+  "homepage": "https://github.com/madoublet/respond-plugins#readme"
+}

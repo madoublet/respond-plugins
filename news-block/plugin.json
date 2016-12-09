@@ -1,0 +1,28 @@
+{
+    "selector": "[respond-plugin][type=news-block]",
+    "title": "News",
+    "display": "<i class=\"material-icons\">local_activity</i>",
+    "view": "<div class=\"respond-plugin\"><i class=\"material-icons\">local_activity</i><span>News</span></div>",
+    "html": "<div respond-plugin type=\"news-block\" route=\"/news\" animation=\"fadeIn\" cycle=\"10\"></div>",
+    "attributes": [
+      {
+        "attr": "route",
+        "label": "Component Directory",
+        "type": "select",
+        "values": ["respond.components.routes"]
+      },
+      {
+        "attr": "animation",
+        "label": "Animation",
+        "type": "select",
+        "values": ["fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeinRightBig", "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp", "flipInX", "flipInY", "lightSpeedIn", "lightSpeedOut", "rotateIn", "slideInUp", "slideInDown", "slideInLeft", "slideInRight"]
+      },
+      {
+        "attr": "cycle",
+        "label": "Cycle Time",
+        "type": "select",
+        "values": ["5", "10", "15", "20", "25"]
+      }
+    ],
+    "assets": ["plugins/news-block.php", "css/news-block.css", "js/news-block.js"]
+}

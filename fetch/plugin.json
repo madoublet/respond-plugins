@@ -1,0 +1,15 @@
+{
+    "selector": "[respond-plugin][type=fetch]",
+    "title": "Fetch",
+    "display": "<i class=\"material-icons\">restore_page</i>",
+    "view": "<div class=\"respond-plugin\"><i class=\"material-icons\">restore_page</i><span>Fetch</span></div>",
+    "html": "<div respond-plugin type=\"fetch\" url=\"\"></div>",
+    "attributes": [
+      {
+        "attr": "url",
+        "label": "URL",
+        "type": "text"
+      }
+    ],
+    "assets": ["plugins/fetch.html", "js/fetch.js"]
+}
